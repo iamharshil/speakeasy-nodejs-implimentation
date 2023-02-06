@@ -1,0 +1,26 @@
+
+POST http://localhost:3000/api/register
+Content-Type: "application/json"
+
+
+###
+
+POST http://localhost:3000/api/verify
+Content-Type: "application/json"
+
+{
+    "userId": "a010b7c8-c081-4cbd-83ef-2c4554773b5c",
+    "token": "488869"
+}
+
+###
+
+POST http://localhost:3000/api/validate
+Content-Type: "application/json"
+
+{
+    "userId": "a010b7c8-c081-4cbd-83ef-2c4554773b5c",
+    "token": "556031"
+}
+
+# works on postman
